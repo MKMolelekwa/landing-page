@@ -1,0 +1,47 @@
+.Quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.Header,
+.Hero,
+.Footer{
+    background-color: #1F2937;
+}
+
+.Hero{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.Header{
+    color: #F9FAF8;
+}
+
+.Navigation{
+    color: #F9FAF8;
+}
+
+.Subheading{
+   font-size: 18px;
+   color: #E5E7EB;
+}
+
+.Action,
+.Order{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.Order{
+    border-style: solid;
+    border-color: white;
+}
+
+.CTA{
+    background-color: #F9FAF8;
+}
