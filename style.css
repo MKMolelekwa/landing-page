@@ -1,10 +1,9 @@
-.Quote{
-    background-color: #E5E7EB;
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 300;
-    font-style: italic;
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
 
 .Header,
 .Hero,
@@ -12,36 +11,214 @@
     background-color: #1F2937;
 }
 
+
+.Header{
+    
+    display: flex;          /*turn header into a flex container, to get navigation next to each other*/
+    justify-content: space-between;         /*h1 and nav on the same level. Adds space between them*/
+    color: #F9FAF8;
+    font-size: 24px;
+    padding-left: 192px;
+}
+
+
+.Navigation{
+    text-align: right;
+    padding-right: 192px;
+}
+
+
+.Navigation a{
+    color: #F9FAF8;
+}
+
+
 .Hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    padding-left: 192px;
+    padding-bottom: 64px;
+}
+
+
+.Hero-text{
+    display: flex;
+    flex-direction: column;         /*h2, p, and button gets stacked on top of each other*/
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.Header{
-    color: #F9FAF8;
+
+.Hero-image{
+    padding-right: 160px;
 }
 
-.Navigation{
-    color: #F9FAF8;
-}
 
-.Subheading{
+.Hero-subheading{
    font-size: 18px;
    color: #E5E7EB;
+   padding-bottom: 20px;
 }
 
+
+.Hero-button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    height: 32px;
+    width: 80px;
+    border-radius: 8px;
+    border-color: #3882F6;
+}
+
+/*.Menu{
+    Color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}*/
+
+
+.Menu-text{
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.Menu-subheading{
+    color: #1F2937;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.Americano-text{
+    color: #1F2937;
+    font-size: 32px;
+}
+
+
+.Americano-subheading{
+    color: #1F2937;
+    font-size: 16px;
+}
+
+
+.Americano-caption{
+    color: #1F2937;
+    font-size: 10px;
+}
+
+
+.Latte-text{
+    color: #1F2937;
+    font-size: 32px;
+}
+
+
+.Latte-subheading{
+    color: #1F2937;
+    font-size: 16px;
+}
+
+
+.Latte-caption{
+    color: #1F2937;
+    font-size: 10px;
+}
+
+
+.Hot-text{
+    color: #1F2937;
+    font-size: 32px;
+}
+
+
+.Hot-subheading{
+    color: #1F2937;
+    font-size: 16px;
+}
+
+
+.Hot-caption{
+    color: #1F2937;
+    font-size: 10px;
+}
+
+
+.Chai-text{
+    color: #1F2937;
+    font-size: 32px;
+}
+
+
+.Chai-sunheading{
+    color: #1F2937;
+    font-size: 16px;
+}
+
+
+.Chai-caption{
+    color: #1F2937;
+    font-size: 10px;
+}
+
+
+.Quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    padding: 150px;
+}
+
+
 .Action,
-.Order{
+.Action-button{
     background-color: #3882F6;
     color: #F9FAF8;
 }
 
-.Order{
-    border-style: solid;
-    border-color: white;
+
+.Action{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+    padding: 64px;
+    margin: 100px;
+    margin-right: 192px;
+    margin-left: 192px;
+    border-radius: 8px;
 }
 
-.CTA{
-    background-color: #F9FAF8;
+
+.Action-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.Action-subheading{
+    font-size: 20px;
+}
+
+
+.Action-button{
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+
+
+.Footer{
+    color:#E5E7EB;
+    text-align: center;
+    padding: 32px;
 }
