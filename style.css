@@ -2,6 +2,7 @@
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
+   font-family: Roboto;
 }
 
 
@@ -30,6 +31,7 @@
 
 .Navigation a{
     color: #F9FAF8;
+    text-decoration: none;
 }
 
 
@@ -79,7 +81,30 @@
 }*/
 
 
-.Menu-text{
+.Menu-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*two columns*/
+    gap: 32px;
+    margin-top: 32px;
+}
+
+
+.Menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px; 
+}
+
+
+.Americano-image{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+.Menu-heading{
     color: #1F2937;
     font-weight: 900;
     font-size: 36px;
@@ -95,14 +120,20 @@
 
 
 .Americano-text{
+    display: flex;
+    flex-direction: column;
     color: #1F2937;
     font-size: 32px;
+    margin-left: 192px;
 }
 
 
 .Americano-subheading{
     color: #1F2937;
     font-size: 16px;
+    box-sizing: border-box;
+    padding: 128px;
+    text-wrap: wrap;
 }
 
 
@@ -121,6 +152,9 @@
 .Latte-subheading{
     color: #1F2937;
     font-size: 16px;
+    box-sizing: border-box;
+    padding: 128px;
+    text-wrap: wrap;
 }
 
 
@@ -139,6 +173,9 @@
 .Hot-subheading{
     color: #1F2937;
     font-size: 16px;
+    box-sizing: border-box;
+    padding: 128px;
+    text-wrap: wrap;
 }
 
 
@@ -154,9 +191,12 @@
 }
 
 
-.Chai-sunheading{
+.Chai-subheading{
     color: #1F2937;
     font-size: 16px;
+    box-sizing: border-box;
+    padding: 128px;
+    text-wrap: wrap;
 }
 
 
